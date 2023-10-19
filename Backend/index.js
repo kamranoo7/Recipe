@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 
 // Recipe Search Endpoint
 app.use("/users",userRouter)
+//Middleware
 app.use(auth)
 app.use("/get",savedRouter)
 

@@ -2,11 +2,11 @@ let express=require("express");
 const { prefModel } = require("../Model/preference.model");
 let savedRouter=express.Router()
 const axios = require('axios');
-
+require("dotenv").config
 //Getting recipies by search
 savedRouter.get('/recipes', async (req, res) => {
     const searchTerm = req.query.query;
-    const spoonacularApiKey = 'c7d1790361e04f798b895c5c62fee495'; 
+    const spoonacularApiKey = process.env.apiKey; 
   
     try {
       const response = await axios.get(
@@ -54,7 +54,7 @@ savedRouter.get("/saved",  async (req, res) => {
 });
 
 
-
+//deleting Recipe From Database
 savedRouter.delete('/delete-recipe/:recipeId', async (req, res) => {
   try {
       const userId = req.body.userID;
