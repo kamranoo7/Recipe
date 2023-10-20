@@ -15,6 +15,7 @@ export default class HomeSlider extends Component {
     };
     return (
       <div className="main">
+          <h1>Weclome to Recipe Search</h1>
         <Slider {...settings}>
           <div>
             <img
@@ -52,7 +53,7 @@ export default class HomeSlider extends Component {
             />
           </div>
         </Slider>
-        <h1>Weclome to Recipe Search</h1>
+      
       </div>
     );
   }
