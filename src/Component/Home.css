@@ -1,0 +1,16 @@
+/* Style for the slider images */
+.slide-image {
+  width: 100%;
+  max-height: 500px;
+  padding: 10px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+/* Responsive design for screens with a max-width of 768px */
+@media (max-width: 768px) {
+  .slide-image {
+    max-height: 300px; /* Adjust the maximum height for smaller screens */
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,67 @@
+.car{
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+}
+
+
+.carcard{
+
+display: grid;
+grid-template-columns: repeat(3,350px);
+grid-template-rows: repeat(3,200px);
+gap: 7px;
+row-gap: 200px;
+    
+}
+
+.div{
+    padding: 20px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(169, 203, 192);
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login{
+    margin-left: 31%;
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.signup{
+    margin-left: 31%;
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    height: 650px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.addcar{
+    background-image: url("https://i.pinimg.com/originals/05/3e/be/053ebe3e0a113512477389585c76f1ab.gif");
+    margin-left: 31%;
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: black;
+}

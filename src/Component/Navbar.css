@@ -1,0 +1,55 @@
+/* Styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #333; /* Background color for the navbar */
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style for the navigation links */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+/* Style for the logo image */
+.navbar img {
+  width: 100px;
+  height: auto;
+}
+
+/* Style for the badge indicating the number of saved recipes */
+.badge {
+  background-color: #007bff; /* Badge background color */
+  color: white;
+  padding: 2px 8px;
+  border-radius: 15px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .navbar img {
+    width: 80px;
+  }
+}

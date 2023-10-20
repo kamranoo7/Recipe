@@ -1,0 +1,52 @@
+/* Style for the login container */
+.login-container {
+    text-align: center;
+    background-color: #333; /* Background color for the container */
+    padding: 20px;
+    margin-top: 2px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* Style for the login header */
+  .login-header {
+    font-weight: 500;
+  }
+  
+  /* Style for the login image */
+  .login-image {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  /* Style for labels */
+  .login-label {
+    color: white;
+  }
+  
+  /* Style for input fields */
+  .login-input {
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  /* Style for the login button */
+  .login-button {
+    background-color: #007bff; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Hover color for the button */
+  }
+  
